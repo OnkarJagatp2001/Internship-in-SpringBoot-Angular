@@ -1,0 +1,39 @@
+package Demo;
+
+public class RunnableDemo implements Runnable{
+	Thread t;
+	RunnableDemo(String name)
+	{
+		t = new Thread(this, name);
+		t.start();
+		System.out.println(t.getName() + " Started");
+	}
+	public void run()
+	{
+		try {
+			for(int i=0;i<11;i++)
+			{
+				System.out.println(t.getName() + ": " + i);
+				Thread.sleep(1000);
+			}
+		} catch (InterruptedException e) {
+			// TODO: handle exception
+		}
+	}
+	
+	public static void main(String ar[]) {
+		System.out.println("Main Started");
+		RunnableDemo ob = new RunnableDemo("First");
+		
+		try {
+			for(int i=0;i<11;i++)
+			{
+				System.out.println( "Main: " + i);
+//				Thread.sleep(1000);
+			}
+		} catch (InterruptedException e) {
+			// TODO: handle exception
+		}
+		
+	}
+}

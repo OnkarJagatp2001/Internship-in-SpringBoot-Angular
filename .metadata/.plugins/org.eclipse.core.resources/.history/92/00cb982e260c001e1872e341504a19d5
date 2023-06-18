@@ -1,0 +1,10 @@
+package Bank;
+
+public class BankAccount {
+ String accountName;
+ long acNumber;
+ double balance;
+ String address;
+ final String IFSC="MAHB008";
+ 
+}

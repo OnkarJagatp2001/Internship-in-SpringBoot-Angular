@@ -1,0 +1,20 @@
+package MapClass;
+
+import java.util.LinkedHashMap;
+
+public class LinkedHashMapDemo {
+	public static void main(String[] arg)
+	{
+		LinkedHashMap<Integer, String> map = new LinkedHashMap<>();
+		
+		map.put(1, "SBI");
+		map.put(2,"Indusland");
+		map.put(3, "HDFC");
+		map.put(4, "Canara");
+		
+		
+		for(Map.Entry<String>)
+		
+	}
+
+}

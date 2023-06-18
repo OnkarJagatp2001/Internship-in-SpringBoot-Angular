@@ -1,0 +1,10 @@
+package Bank;
+
+public class SavingsAccount extends BankAccount{
+	String name="Onkar";
+	long number=1234567;
+	double balance=3940.0;
+	String address="Jamkhed";
+	BankAccount bk=new BankAccount(name,number,balance, address);
+	bk.printInfo();
+}

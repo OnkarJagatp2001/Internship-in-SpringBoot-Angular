@@ -1,0 +1,23 @@
+package com.demo;
+
+public class Main {
+	public static void main(String[] args)
+	{
+		int a = 100;
+		int b = 20;
+		
+		try
+		{
+			int ans = a / b;
+			System.out.println(ans);
+		}catch(Exception e)
+		{
+			System.out.println("Exception is: "+ e);
+		}finally {
+			System.out.println("This is finally block");
+		}
+		
+		
+	}
+
+}

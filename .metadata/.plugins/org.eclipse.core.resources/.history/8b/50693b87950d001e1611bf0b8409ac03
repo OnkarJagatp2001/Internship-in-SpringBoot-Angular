@@ -1,0 +1,11 @@
+package Demo;
+
+public class RunnableDemo implements Runnable{
+	Thread t;
+	RunnableDemo(String name)
+	{
+		t = new Thread(this, name);
+		t.start();
+		System.out.println(t.getName() + " Started");
+	}
+}

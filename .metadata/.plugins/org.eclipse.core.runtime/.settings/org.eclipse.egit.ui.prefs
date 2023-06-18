@@ -1,0 +1,6 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>This is commit msg&\#x0A;&\#x0A;Change-Id\: I0000000000000000000000000000000000000000&\#x0A;Signed-off-by\: onkar &lt;onkarbjagtap2001@gmail.com&gt;&\#x0A;</message>\r\n<message>This is commit msg</message>\r\n<message>commit</message>\r\n<message>This is first commit</message>\r\n</messages>
+eclipse.preferences.version=1
+repositories_view_filters=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<FilterCache/>
+repository_push_settings_C\:\\Users\\Onkar\\git\\FullStack_With_SpringBoot_And_Angular\\.git=true;-
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

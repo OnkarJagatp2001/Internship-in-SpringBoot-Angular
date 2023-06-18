@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;MapClass.Demo&apos; to &apos;HashMapDemo&apos;&#x0D;&#x0A;- Original project: &apos;CollectionFramwork&apos;&#x0D;&#x0A;- Original element: &apos;MapClass.Demo&apos;&#x0D;&#x0A;- Renamed element: &apos;MapClass.HashMapDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Demo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;MapClass{Demo.java[Demo" matchStrategy="1" name="HashMapDemo" qualified="false" references="true" similarDeclarations="false" stamp="1687080863576" textual="false" version="1.0"/>
+</session>

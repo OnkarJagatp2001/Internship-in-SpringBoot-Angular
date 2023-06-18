@@ -1,0 +1,17 @@
+package Bank;
+
+public class BankAccount {
+ String accountName;
+ long acNumber;
+ double balance;
+ String address;
+ final String IFSC="MAHB008";
+public BankAccount(String accountName, long acNumber, double balance, String address) {
+	super();
+	this.accountName = accountName;
+	this.acNumber = acNumber;
+	this.balance = balance;
+	this.address = address;
+}
+ 
+}

@@ -1,0 +1,8 @@
+package MapClass;
+
+public class LinkedHashMapDemo {
+	public void name() {
+		
+	}
+
+}
